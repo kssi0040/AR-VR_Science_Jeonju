@@ -8,6 +8,3 @@ Unity Version : 2019.1.0f2
 
 3. Unity3D로 압축해제된 폴더를 열람
 
-4. test 용....
-
-5...시험
