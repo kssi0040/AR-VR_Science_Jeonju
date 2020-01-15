@@ -34,15 +34,17 @@ public class PicturePopUp : MonoBehaviour
 
     public void ImgButtonEvent()
     {
-        aButtons[iBtnCount].SetActive(false);
-        iBtnCount++;
-        if (this.transform.childCount <= iBtnCount)
+        if(0 == iBtnCount)
         {
-            // hmm... 그냥 넘기기..???
-            m_StagePlay.forwardDown();
-            iBtnCount = 0;
-            return;
-        }
-        aButtons[iBtnCount].SetActive(true);
+            aButtons[iBtnCount].SetActive(false);
+            iBtnCount++;
+            aButtons[iBtnCount].SetActive(true);
+        }        
+    }
+
+
+    public void NextButtonEvent()
+    {
+        m_StagePlay.forwardDown();
     }
 }

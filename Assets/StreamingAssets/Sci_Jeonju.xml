@@ -63,21 +63,14 @@
               <CreateObj ID="12" Name="Picture_PopUp_6" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="13" Name="Select_PopUp_1" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="14" Name="SpeechBubble_Left" Desc="지시문"></CreateObj>
-              
-              
-              <CreateObj ID="15" Name="North_Rice_Noodle" Desc="지시문"></CreateObj>
-              <CreateObj ID="16" Name="South_Rice_Noodle" Desc="지시문"></CreateObj>
-              
-              
-              <CreateObj ID="17" Name="Rice_Noodle_South" Desc="지시문"></CreateObj>                           
+              <CreateObj ID="15" Name="Photo_PopUp_4" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="16" Name="Photo_PopUp_5" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="17" Name="Photo_PopUp_3" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="18" Name="Close" Desc="닫기"></CreateObj>              
               <CreateObj ID="19" Name="Controller" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="20" Name="SpeechBubble_Right" Desc="지시문"></CreateObj>                            
               <CreateObj ID="21" Name="Photo_PopUp_1" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="22" Name="Photo_PopUp_2" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="23" Name="Photo_PopUp_3" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="24" Name="Photo_PopUp_4" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="25" Name="Photo_PopUp_5" Desc="테스트_오브젝트2"></CreateObj>              
             </CreateObjList>
           </Canvas>
           <Canvas ID="1">
@@ -133,21 +126,13 @@
               <CreateObj ID="12" Name="Close" Desc="닫기"></CreateObj>
               <CreateObj ID="13" Name="Change_Cloth_TextBox" Desc="의상변경 말상자"></CreateObj>
               <CreateObj ID="14" Name="Picture_PopUp_8" Desc="테스트_오브젝트2"></CreateObj>
-
-
               <CreateObj ID="15" Name="Photo_PopUp_1" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="16" Name="사진_3" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="16" Name="Photo_PopUp_14" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="17" Name="Picture_PopUp_4" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="18" Name="Picture_PopUp_5" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="19" Name="사진_1" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="20" Name="사진_2" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="21" Name="사진_4" Desc="테스트_오브젝트2"></CreateObj>
-
-              <CreateObj ID="22" Name="Video_PopUp_5" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="23" Name="Photo_PopUp_12" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="24" Name="Photo_PopUp_13" Desc="테스트_오브젝트2"></CreateObj>
-              <CreateObj ID="25" Name="Photo_PopUp_14" Desc="테스트_오브젝트2"></CreateObj>              
-
+              <CreateObj ID="19" Name="Video_PopUp_5" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="20" Name="Photo_PopUp_12" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="21" Name="Photo_PopUp_13" Desc="테스트_오브젝트2"></CreateObj>              
             </CreateObjList>
           </Canvas>
           <Canvas ID="1">
@@ -3550,7 +3535,7 @@
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
                 <!-- 그림 교체해야 함.. -->
-                <InitObj ID="25" Name="Photo_PopUp_5" Desc="테스트_오브젝트1" Anim="null">
+                <InitObj ID="16" Name="Photo_PopUp_5" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -3776,12 +3761,7 @@
           </ObjType2D>
         </InitObjList>
         <Text>한옥을 지을 때 '종이'의 어떤 특성을 활용하였는지 이해했습니다. '미래에서 온 건축가'는 '종이로 바른 문과 창'을 얻었습니다!</Text>
-      </InitEvent>      
-      
-      
-      
-      
-      
+      </InitEvent>            
       <InitEvent ID="30">
         <InitCharList>
           <CharType2D>
@@ -5576,6 +5556,15 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
+                <InitObj ID="2" Name="forward" Desc="다음 버튼" Anim="null">
+                  <AnchorMin x="0.9382969" y="0.036"/>
+                  <AnchorMax x="0.9803594" y="0.1208611"/>
+                  <Pivot x="0.5" y="0.5"/>
+                  <OffsetMin x="4.5" y="8.5"/>
+                  <OffsetMax x="3.5" y="6.5"/>
+                  <Rot x="0.0" y="0.0" z="0.0"/>
+                  <Scale x="1.0" y="1.0" z="1.0"/>
+                </InitObj>
                 <InitObj ID="4" Name="Map" Desc="Map" Anim="null">
                   <AnchorMin x="0.9382969" y="0.1794722"/>
                   <AnchorMax x="0.9803594" y="0.2601667"/>
@@ -6847,9 +6836,8 @@
                   <OffsetMax x="3.5" y="6.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitObj>
-                <!-- 전도 그림... -->                
-                <InitObj ID="23" Name="Photo_PopUp_12" Desc="테스트_오브젝트1" Anim="null">
+                </InitObj>                  
+                <InitObj ID="20" Name="Photo_PopUp_12" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -7010,7 +6998,7 @@
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
                 <!-- 복사 그림 -->                
-                <InitObj ID="24" Name="Photo_PopUp_13" Desc="테스트_오브젝트1" Anim="null">
+                <InitObj ID="21" Name="Photo_PopUp_13" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -7155,11 +7143,7 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
-
-
-                <!-- 대류 그림 -->
-                <!-- Test -->
-                <InitObj ID="25" Name="Photo_PopUp_14" Desc="테스트_오브젝트1" Anim="null">
+                <InitObj ID="16" Name="Photo_PopUp_14" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -7168,7 +7152,6 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
-
                 <InitObj ID="4" Name="Map" Desc="Map" Anim="null">
                   <AnchorMin x="0.9382969" y="0.1794722"/>
                   <AnchorMax x="0.9803594" y="0.2601667"/>
@@ -7836,7 +7819,8 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
-                <InitObj ID="22" Name="Photo_PopUp_5" Desc="테스트_오브젝트1" Anim="null">
+                <!--
+                <InitObj ID="16" Name="Photo_PopUp_5" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -7845,6 +7829,7 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
+                -->
               </InitObjList>
             </Canvas>
             <Canvas ID="1">
@@ -8888,14 +8873,7 @@
     <QuarterSelectEvent>
       <InitEvent ID="0">
         <ActiveObjList>          
-          <ObjType3D>
-            <ActiveObjList>
-              <ActiveObj ID="0" Name="Table_wood_1" Desc="테이블" Anim="null"></ActiveObj>
-              <ActiveObj ID="1" Name="Curry" Desc="카레" Anim="null"></ActiveObj>
-              <ActiveObj ID="2" Name="Rice_Noodle" Desc="쌀국수" Anim="null"></ActiveObj>
-              <ActiveObj ID="3" Name="China_Noodle" Desc="장수면" Anim="null"></ActiveObj>
-              <ActiveObj ID="4" Name="Miso_Soup" Desc="청국장" Anim="null"></ActiveObj>
-            </ActiveObjList>            
+          <ObjType3D>           
           </ObjType3D>
         </ActiveObjList>        
       </InitEvent>
