@@ -71,6 +71,7 @@
               <CreateObj ID="20" Name="SpeechBubble_Right" Desc="지시문"></CreateObj>                            
               <CreateObj ID="21" Name="Photo_PopUp_1" Desc="테스트_오브젝트2"></CreateObj>
               <CreateObj ID="22" Name="Photo_PopUp_2" Desc="테스트_오브젝트2"></CreateObj>
+              <CreateObj ID="23" Name="Photo_PopUp_9" Desc="테스트_오브젝트2"></CreateObj>
             </CreateObjList>
           </Canvas>
           <Canvas ID="1">
@@ -2182,7 +2183,7 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
-                <InitObj ID="23" Name="Picture_PopUp_3" Desc="테스트_오브젝트1" Anim="null">
+                <InitObj ID="17" Name="Photo_PopUp_3" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -2236,36 +2237,7 @@
                   <OffsetMax x="1051.5" y="218.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                <!--
-                 <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
-                  <AnchorMin x="0.8" y="0.283"/>
-                  <AnchorMax x="1.0" y="0.66"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1050.0" y="410.5"/>
-                  <OffsetMax x="1000.0" y="-900.5"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
-                  <AnchorMin x="0.8145625" y="0.2833334"/>
-                  <AnchorMax x="1.0" y="0.66"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1124.0" y="184.0"/>
-                  <OffsetMax x="962.0" y="-1127.0"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>                                
-                <InitChar ID="3" Name="CH_05" Desc="해설" Anim="null">
-                  <AnchorMin x="0.02" y="0.3"/>
-                  <AnchorMax x="0.23" y="0.73"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1038.5" y="-760.5"/>
-                  <OffsetMax x="979.5" y="59.5"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                -->
+                </InitChar>               
               </InitCharList>
             </Canvas>
           </CharType2D>
@@ -2293,6 +2265,7 @@
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>                
                 <!-- 그림 교체해야 함.. -->
+                <!--
                 <InitObj ID="24" Name="Picture_PopUp_4" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
@@ -2302,6 +2275,7 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
+                -->
                 <InitObj ID="10" Name="Map" Desc="Map" Anim="null">
                   <AnchorMin x="0.9382969" y="0.1794722"/>
                   <AnchorMax x="0.9803594" y="0.2601667"/>
@@ -2346,36 +2320,7 @@
                   <OffsetMax x="1051.5" y="218.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                <!--
-                 <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
-                  <AnchorMin x="0.8" y="0.283"/>
-                  <AnchorMax x="1.0" y="0.66"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1050.0" y="410.5"/>
-                  <OffsetMax x="1000.0" y="-900.5"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
-                  <AnchorMin x="0.8145625" y="0.2833334"/>
-                  <AnchorMax x="1.0" y="0.66"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1124.0" y="184.0"/>
-                  <OffsetMax x="962.0" y="-1127.0"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>                                
-                <InitChar ID="3" Name="CH_05" Desc="해설" Anim="null">
-                  <AnchorMin x="0.02" y="0.3"/>
-                  <AnchorMax x="0.23" y="0.73"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1038.5" y="-760.5"/>
-                  <OffsetMax x="979.5" y="59.5"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                -->
+                </InitChar>                
               </InitCharList>
             </Canvas>
           </CharType2D>
@@ -2403,6 +2348,7 @@
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
                 <!-- 그림 교체해야 함.. -->
+                <!--
                 <InitObj ID="24" Name="Picture_PopUp_4" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
@@ -2412,6 +2358,7 @@
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
                 </InitObj>
+                -->
                 <InitObj ID="10" Name="Map" Desc="Map" Anim="null">
                   <AnchorMin x="0.9382969" y="0.1794722"/>
                   <AnchorMax x="0.9803594" y="0.2601667"/>
@@ -2456,36 +2403,7 @@
                   <OffsetMax x="1051.5" y="218.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                <!--
-                 <InitChar ID="1" Name="CH_01" Desc="테스트용" Anim="Idle">
-                  <AnchorMin x="0.8" y="0.283"/>
-                  <AnchorMax x="1.0" y="0.66"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1050.0" y="410.5"/>
-                  <OffsetMax x="1000.0" y="-900.5"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                <InitChar ID="2" Name="CH_02" Desc="테스트용" Anim="Idle">
-                  <AnchorMin x="0.8145625" y="0.2833334"/>
-                  <AnchorMax x="1.0" y="0.66"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1124.0" y="184.0"/>
-                  <OffsetMax x="962.0" y="-1127.0"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>                                
-                <InitChar ID="3" Name="CH_05" Desc="해설" Anim="null">
-                  <AnchorMin x="0.02" y="0.3"/>
-                  <AnchorMax x="0.23" y="0.73"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="-1038.5" y="-760.5"/>
-                  <OffsetMax x="979.5" y="59.5"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitChar>
-                -->
+                </InitChar>               
               </InitCharList>
             </Canvas>
           </CharType2D>
@@ -2631,9 +2549,6 @@
         <Text>한옥의 각 부분을 만든 재료에 대해 5개의 구조와 재료를 순서대로 확인해 보자!</Text>
       </InitEvent> 
       
-      
-      
-      
       <InitEvent ID="17">
         <InitCharList>
           <CharType2D>
@@ -2720,8 +2635,6 @@
         </InitObjList>
         <Text>두 번째, 기둥, 마루, 창틀의 재료인 나무는 한옥에서 어떤 역할을 하지?</Text>
       </InitEvent>
-      
-      
       
       <InitEvent ID="18">
         <InitCharList>
@@ -3980,9 +3893,8 @@
                   <OffsetMax x="-4.0" y="-3.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitObj>
-                <!-- 그림 교체해야 함.. -->
-                <InitObj ID="21" Name="Photo_PopUp_1" Desc="테스트_오브젝트1" Anim="null">
+                </InitObj>                                
+                <InitObj ID="23" Name="Photo_PopUp_9" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -4062,9 +3974,8 @@
                   <OffsetMax x="-4.0" y="-3.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitObj>
-                <!-- 그림 교체해야 함.. -->
-                <InitObj ID="21" Name="Photo_PopUp_1" Desc="테스트_오브젝트1" Anim="null">
+                </InitObj>                
+               <InitObj ID="23" Name="Photo_PopUp_9" Desc="테스트_오브젝트1" Anim="null">
                   <AnchorMin x="0.0" y="0.0"/>
                   <AnchorMax x="1.0" y="1.0"/>
                   <Pivot x="0.5" y="0.5"/>
@@ -4304,19 +4215,7 @@
                   <OffsetMax x="-4.0" y="-3.5"/>
                   <Rot x="0.0" y="0.0" z="0.0"/>
                   <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitObj>
-                <!-- 그림 교체해야 함.. -->
-                <!--
-                <InitObj ID="21" Name="Photo_PopUp_1" Desc="테스트_오브젝트1" Anim="null">
-                  <AnchorMin x="0.0" y="0.0"/>
-                  <AnchorMax x="1.0" y="1.0"/>
-                  <Pivot x="0.5" y="0.5"/>
-                  <OffsetMin x="500.0" y="480.0"/>
-                  <OffsetMax x="-600.0" y="-100.0"/>
-                  <Rot x="0.0" y="0.0" z="0.0"/>
-                  <Scale x="1.0" y="1.0" z="1.0"/>
-                </InitObj>
-                -->
+                </InitObj>               
               </InitObjList>
             </Canvas>
             <Canvas ID="1">
@@ -4418,9 +4317,6 @@
         <Text>한옥에 대해 잘 공부해 가는 것 같아서 뿌듯한걸? 한옥에 대해 알게 된 점을 설명해 줄래?</Text>
       </InitEvent>
       
-      
-      
-      
       <InitEvent ID="38">
         <InitCharList>
           <CharType2D>
@@ -4506,10 +4402,7 @@
           </ObjType2D>
         </InitObjList>
         <Text>한옥은 자연의 재료를 인공적으로 가공하지 않아 완성된 집에서 자연미가 느껴져. 그래서 주변 환경과 자연스럽게 어우러지지.</Text>
-      </InitEvent>
-      
-      
-      
+      </InitEvent>            
       <InitEvent ID="39">
         <InitCharList>
           <CharType2D>
@@ -4595,11 +4488,7 @@
           </ObjType2D>
         </InitObjList>
         <Text>또한 건축의 재료를 자연에서 얻었고, 그 특성을 고려하여 집을 설계하여 한옥은 아름답고 견고하며 자연친화적이지.</Text>
-      </InitEvent>
-      
-      
-      
-      
+      </InitEvent>      
       <InitEvent ID="40">
         <InitCharList>
           <CharType2D>
@@ -4686,9 +4575,6 @@
         </InitObjList>
         <Text>마지막으로 한옥의 재료들은 다시 분해되어 자연으로 돌아가기 때문에, 환경오염을 최소화할 수 있어.</Text>
       </InitEvent>
-      
-      
-      
       
       <InitEvent ID="41">
         <InitCharList>
@@ -4865,10 +4751,6 @@
         </InitObjList>
         <Text>한옥의 구조와 그에 따른 재료의 사용을 알고나니 한옥이 더욱 흥미롭게 느껴져. 자연과 조화를 이루는 아름다운 한옥거리를 걸어보자. 한옥의 재료와 구조에 대해 알게되었으니 다른 곳도 둘러볼까?</Text>
       </InitEvent>
-
-
-
-
       <InitEvent ID="43">
         <InitCharList>
           <CharType2D>
@@ -4956,11 +4838,7 @@
         <Text>한옥의 재료와 구조에 대해 알게되었으니 다른 곳도 둘러볼까?</Text>
       </InitEvent>
       
-      
-      
       <!-- Stage 2 -->
-      
-      
       
       <InitEvent ID="50">
         <InitCharList>
